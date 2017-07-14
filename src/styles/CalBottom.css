@@ -1,0 +1,27 @@
+
+.CalBottom .item{
+  height: 46px;
+}
+.CalBottom .item .date,.day,.temp{
+  float: left;
+  box-sizing: border-box;
+  margin-top: 14px;
+  font-size: 18px;
+}
+.CalBottom .date{
+  width: 20%;
+  text-align: right;
+}
+.CalBottom .date span{
+  border-radius: 100%;
+  background-color: #d9d9d9;
+  padding: 5px;
+  margin-right: 10px;
+}
+.CalBottom .day{
+  width: 60%;
+}
+.CalBottom .temp{
+  width: 20%;
+  color: #999;
+}

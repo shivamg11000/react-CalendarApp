@@ -1,0 +1,33 @@
+.CalBody{
+  height: 50%;
+  text-align: center;
+  border-bottom: 1px solid red;
+}
+.CalBody .DayName{
+  height: 6%;
+}
+.CalBody .DayName ul{
+  overflow: auto;
+  margin: 0;
+}
+.CalBody .DayName li{
+  float: left;
+  width: 14.28%;
+  box-sizing: border-box;
+}
+
+.CalBody .DateItems{
+  height: 94%;
+}
+.CalBody .DateItems ul{
+  height: 100%;
+}
+.CalBody .DateItems li{
+  width: 14.28%;
+  height: 16.66%;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 10px;
+  border: 1px solid #ececec;
+  font-size: 22px;
+}
