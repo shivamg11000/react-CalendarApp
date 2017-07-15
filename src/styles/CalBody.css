@@ -30,4 +30,9 @@
   padding-top: 10px;
   border: 1px solid #ececec;
   font-size: 22px;
+  cursor: pointer;
+}
+.CalBody .DateItems li:hover{
+  background-color: #f44;
+  color: #fff;
 }
