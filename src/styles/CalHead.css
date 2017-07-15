@@ -1,0 +1,41 @@
+.CalHead{
+  height: 11%;
+  box-sizing: border-box;
+  background-color: #f44;
+  background: linear-gradient(35deg,#f22,#f77);
+  position: relative;
+}
+.CalHead .row{
+  overflow: auto;
+  height: 75%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.CalHead .btn{
+  width: 15%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+.CalHead .btn div{
+  width: 50%;
+  margin: 8px auto;
+  border: 1px solid white;
+
+}
+.CalHead .date{
+  width: 85%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  font-size: 27px;
+  padding: 5px;
+  padding-left: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.CalHead .date .date-property{
+  cursor: pointer;
+}
