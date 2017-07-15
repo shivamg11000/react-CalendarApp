@@ -2,6 +2,10 @@
 .CalBottom .item{
   height: 46px;
 }
+.CalBottom .item:hover{
+  background-color: #d3d3d3;
+
+}
 .CalBottom .item .date,.day,.temp{
   float: left;
   box-sizing: border-box;
@@ -23,5 +27,5 @@
 }
 .CalBottom .temp{
   width: 20%;
-  color: #999;
+  color: #0057ff;
 }
