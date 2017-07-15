@@ -35,3 +35,7 @@
   color: white;
   font-weight: 500;
 }
+
+.CalHead .date .date-property{
+  cursor: pointer;
+}

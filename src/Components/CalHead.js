@@ -12,7 +12,7 @@ class CalHead extends React.Component{
             <div></div>
           </div>
           <div className="date">
-            Jul 2017
+            <span className="date-property"> Jul 2017 <i className="fa fa-angle-down"></i></span>
           </div>
         </div>
       </div>
