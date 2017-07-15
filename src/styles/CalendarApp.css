@@ -11,8 +11,8 @@ ul{
 
 .CalendarApp{
   border: 1px solid black;
-  width: 425px;
+  /*width: 425px; width and margin sorted out by col-md-offset*
+  margin: 10px auto;*/
   height: 600px;
-  margin: 10px auto;
   background-color: #fafafa;
 }
